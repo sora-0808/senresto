@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: kaaynoss221
+    env: node
+    buildCommand: npm run build
+    startCommand: npm run preview
+    nodeVersion: 22.16.0
