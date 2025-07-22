@@ -4,13 +4,19 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Site web professionnel pour le restaurant sénégalais KaayNoss à Dakar",
-  "keywords": ["restaurant", "senegal", "dakar", "cuisine", "africaine"],
+  "keywords": [
+    "restaurant",
+    "senegal",
+    "dakar",
+    "cuisine",
+    "africaine"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "vite preview --port ${PORT:-4173}"
+    "start": "vite preview --port %PORT%"
   },
   "dependencies": {
     "cors": "^2.8.5",
