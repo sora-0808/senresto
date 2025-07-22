@@ -2,6 +2,6 @@ services:
   - type: web
     name: kaaynoss221
     env: node
-    buildCommand: npm run build
-    startCommand: npm run preview
+    buildCommand: npm ci && npm run build
+    startCommand: npm run preview --port $PORT
     nodeVersion: 22.16.0
